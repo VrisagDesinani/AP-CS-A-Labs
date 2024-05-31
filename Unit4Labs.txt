@@ -1,0 +1,52 @@
+Unit 4: Iterations
+1.       Write a class called YourNameU4E1D. The class will do the following:
+a.       Write a class that read an initial investment balance and an interest rate, then prints the number of years it takes for the investment to reach $2 million.
+ 
+2.       Write a class called YourNameU4E2D. The class will do the following:
+a.       Write a program that reads a sequence of integer input and prints the smallest and largest of the inputs. Use 10 integers.
+b.       the number of even and odd inputs
+c.       cumulative totals. For example if the input is 1 7 2 9 your output should print 1 8 10 19
+d.       all adjacent duplicates. For example if the input is 1 3 3 4 5 5 6 6 6 2 your output should print 3 5 6
+3.       Write a class called YourNameU4E3D. The class will do the following:
+a.       Writing class that will read a line of input as a string and print only the uppercase characters in the string
+b.       Print every second letter of the string
+c.       replace all vowels with the #
+d.       Print the positions of all vowels in a string
+ 
+ 
+4.       Write a class called YourNameU4E4D. The class will do the following:
+a.       Using the Internet, choose a city and select 12 of the high temperatures, one per month. You do not need to select the highest temperature, just one of them. For example, Minneapolis Minnesota in January of 2019 had a range of high temperatures from -12.8 to 46.9. so you could choose-12.8 or 46.9 or any of the other 29 days of the month.
+b.       Write a class that reads in 12 temperatures and determines which month had the highest temperature, and the lowest temperature.
+c.       Calculate the average temperature
+d.       Print to the screen the results of part B and C, and the name of the city you chose. 
+ 
+5.       Write a class called YourNameU4E5R. The class will do the following:
+a.       Write a method that will read in a word.
+b.       write a second method that will print the word backwards.
+c.       write a third method that will print all substrings, sorted by length. For example if the user provides the input “Amy” the program prints
+a
+m
+y
+am
+my
+amy
+d.       Write a driver class to call the methods from parts A,B,&C
+ 
+ 
+6.       Write a class called YourNameU4E6D. The class will do the following:
+a.       Write a program that prints all powers of two from 2-31 to 231-1 in int form. Use doubles. 
+ 
+7.       Write a class called YourNameU4E7D. The class will do the following:
+a.       Create a method that will Read in a set of double numbers and choose an appropriate mechanism to prompt for the end of the data set.
+b.       create a method that will calculate the mean of the data set and print the mean to the screen
+c.       create a method that will calculate the standard deviation of the data set and print to the screen.
+d.       Methods B&C should be named getAverage and getStandardDeviation
+ 
+8.       Write a class called YourNameU4E8D. The class will do the following:
+a.       write a method that reads in An integer and then calculates all the prime numbers up to that integer.
+ 
+9.       Write a class called YourNameU4E9D. The class will do the following:
+a.       Radioactive decay of radioactive materials can be modeled by the equation A = P(1/2)t/d Where A is the amount of substance remaining after time t, P is the initial amount of substance and d is the half life of the substance. To find the half life of a substance, you can solve for when half of the original amount remains by solving ½ = b/t
+b.       Read in The initial amount of a radioactive material, it's half life, and calculate how much material is left in half life increments until the amount is 0. Either use an Integer or cast  a double as an int for the amount.
+ 
+
