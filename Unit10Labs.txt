@@ -1,0 +1,14 @@
+Unit 10: Recursion 
+**All submissions should have a Driver and Resource class
+Write a class called YourNameU10E1R. The class will do the following:
+ Given a class rectangle (You could use Java’s default rectangle class or create your own) with instance variables width and height, provide a recursive getArea method. Construct a rectangle whose width is 1 less than the original and call its getArea method.
+Write a class called YourNameU10E2R . The class will do the following:
+Given a square (You could use Java’s default rectangle class or create your own) with an instance variable width, provide a recursive getArea method. Construct a square whose width is 1 less than the original and call its getArea method.
+
+Write a class called YourNameU10E3D. The class will do the following:                                                                                                                    
+Phone numbers and pin codes can be easier to remember when you find words that spell out the number on a standard phone pad. For example, instead of remembering the combination 5282, you can just think of Java. Brady recursive method that given a number, yields all possible spellings which may or may not be real words.
+Write a class called YourNameU10E4R. The class will do the following:
+Write a factorial method from a number supplied by the user.
+Write a class called YourNameU10E5R. The class will do the following:
+Write a telephone lookup program. Read a data set of 10 names and telephone numbers from an array list or 2D array or an array or a file that contains the numbers in random order. Handle lookups by name and also reverse lookups by phone number. Use a binary search for both lookups.
+
