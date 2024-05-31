@@ -1,0 +1,17 @@
+Unit 9: Inheritance and Polymorphism
+*** You must have a Driver and Reference class. Do not put print statements in the driver class
+Write a class called YourNameU9E1R. The class will do the following:
+Using the bank account class from unit 5, implement a method call overdraft that will not allow the user to withdraw more money than is currently in the account.
+add additional functionality to the overdraft account that will give the user the opportunity to overdraft up to $200 for a $45 penalty.
+[***Ask user for overdraft amount]
+Write a class called YourNameU9E2R . The class will do the following:
+Code a superclass call Person. Make two subclasses, Student and Instructor, that inherit from Person. A Person has a first name, last name, and a home town. A Student has a type of degree (i.e. Bachelors, Masters, Ph.D) and graduation year,  and an Instructor has a subject taught. Write class declarations, constructors, and the methods tostring for all classes. Supply a driver program for testing of these methods.
+
+Write a class called YourNameU9E3D. The class will do the following:
+In the big Java book, unit 9 pages 461 – 464, complete one of these assignments:
+(P9.1 , P9.2 - Get values for hours and minutes from the user) 
+or 
+(P9.3, P9.4  ) 
+or 
+(One of the following: P9.6, P9.8)
+
