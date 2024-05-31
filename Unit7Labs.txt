@@ -1,0 +1,51 @@
+Unit 7: 2DArrays
+1.       Write a class YourNameU7E1R that has a 2D array and populate it with the states and their area codes.
+a.       Develop a lookup by area code method that will display the following information (State, if the call is toll free, or the area code is not in use)
+b.       Create a driver class YourNAmeU7E1D and prompt the user (from the resource class) for an area code, then using a print method, print the state.
+a.        
+2.       Write a class called YourNameU7E2R . The class will do the following:
+a.       Fill a 20x20 matrix with random doubles. I would suggest keeping the numbers between .01 and 10.99. If the product says infinity, your number is too  big. Remember to use Math.random.
+b.       Sum each of the indexes
+c.       Multiply each of the indexes
+d.       Print the sum and product.
+ 
+3.       Write a class called YourNameU7E3D. The class will do the following:
+
+
+
+4.       Write a class called YourNameU7E4D. The class will do the following:
+
+
+
+5.       Write a class called YourNameU7E5D. The class will do the following:
+a.       Fill a 3x3 matrix with random integers.
+b.       Calculate the sum of the neighbors
+c.       Place each sum in a different 3x3 matrix
+
+
+
+    
+6.       Write a class called YourNameU7E6R. The class will do the following:
+Using the given matrix
+a.       Populate the array using the matrix (Star Trek dataset, find your name)
+b.       sum the numbers by row
+c.       Put the sum in a one- dimensional array.
+d.       Create a character array and populate it with the letters of the alphabet.
+                                                               i.      Populate indexes 0 – 9 with a period, a questions mark, an explanation mark, a comma, and spaces for the remainder. “A” starts at index 10.
+e.        Using the sum array, use the modulus operator, (%100) find the corresponding letter with in the character array and concatenate the letters and print out the letters. 
+f.        Use the concatenation of letters from lab two. Using the substring method, populate a string array with the words and print out the message.
+g.       Then use the character array and place the spaces in appropriate places and the correct punctuation marks. Print out the message
+7.       Write a class called YourNameU7E7R. The class will do the following:
+a.       Write a method that inverts a 2D array. So each column is now a row and each row is a column.
+ 
+8.       Write a class called YourNameU7E8D. The class will do the following:
+a.       Write a method that reverses the contents of a 2D array.
+ 
+End of assignments …….
+
+
+9.       Do Not Do Write a class called YourNameU7E9R. The class will do the following:
+a.       Write a class that returns that +/- for the home team given an array of scores.
+b.       “team +/-” means the total difference between the points scored by the home team and the points given up. It could be a negative number.
+c.       Print if the home team won or lost that game. 
+
