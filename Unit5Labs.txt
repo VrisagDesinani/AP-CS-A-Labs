@@ -1,0 +1,43 @@
+Unit 5: Writing classes
+1.       Write a class called YourNameU5E1RBankAccount. The class will do the following:
+a.       Declare an instance variable named balance
+b.       code a default and one argument constructor
+c.       code a method called deposit with one argument
+d.       code a  method called withdraw with one argument
+e.       code a method called get balance that returns the balance
+f.        Write a class called YourNameU5E1DBATester Whose main method constructs a bank account, deposits $2500, withdrawals $600, withdraws another $700, then prints the remaining balance.
+
+2.       Write a class called EmployeeYourNameU5E2R . The class will do the following:
+a.       An employee has a name (a string) and a salary (a double). Provide a constructor with two arguments.
+b.       Code a method called getName that returns a string
+c.       Code a method called getSalary that returns a double
+d.       Code a method called raiseSalary that takes in a double.
+e.       The method raiseSalary should raise the employee salary by a certain percentage. Coding method that prints out the employees name, old salary, percentage increased, and new salary.
+f.        Write a driver class that gets the name, current salary, percentage to raise the salary, and calls the method in part E
+g.        
+ 
+3.       Write a class called CarYourNameU5E3D. The class will do the following:
+a.       Implement a class car with the following properties. A car has a certain fuel efficiency (measured in miles per gallon or liters per kilometer - pick one) and a certain amount of fuel in the gas tank. The efficiency is specified in the constructor, and the initial fuel level is zero. Supply a method drive that simulates driving the car for a certain distance reducing the amount of gasoline in the fuel tank. Also supply method getGasInTank returning the current amount of gasoline in a car’s fuel tank after the drive and addGas to add to the fuel tank.
+b.       Add an error check to make sure the miles driven is not greater than the amount of fuel. If it is, print out some funny message to the screen.
+c.       Code an one argument constructor and appropriate instance variables
+d.       Write a driver class that initiates a car object that supplies the miles per gallon to the one argument constructor, and calls the appropriate methods in order to test parts A&B.
+e.        
+4.       Write a class called YourNameU5E4R. The class will do the following:
+a.       Code a default constructor that sets initial values to the instance variables you create
+b.       Code a method that takes a range of numbers and sums them. 
+c.       Code a method that takes a range of numbers and finds the difference of them. 
+d.       Code a method that takes a range of numbers and finds the product of them. 
+e.       You can use the same numbers for parts B through D or have different numbers each time, the choice is yours.
+f.        Code a method that prints the results of parts B through D
+g.       Write a driver class to test parts A through F.
+ 
+5.       Write a class called YourNameU5E5R. The class will do the following:
+a.       A microwave control panel has four buttons: one for increasing the time by 30 seconds, one for switching between power levels one and two, a reset button, and a start button. Implement a class that simulates the microwave with a method for each button. The method for the start button should print a message “cooking for …. Seconds at level…”
+b.       Appropriate constructors should be included.
+c.       Write a driver class to test part A.
+ 
+6.       Write a class called YourNameU5E6D. The class will do the following:
+a.       Implement a voting machine class that can be used for a simple election. Have methods to clear the machine state, to vote for a Democrat, to vote for a republican, and to get the tallies for both parties. End the voting with a “q”.
+B. Write a driver class to run part “A”.
+
+
