@@ -1,0 +1,72 @@
+Unit 3: Boolean expression and if statements
+Write a class called YourNameU3E1D. The class will do the following:
+Write a class that will print the number of integers a number has using inequalities. If the number is negative, use -1 to change it to positive. The maximum number to be checked is 2 billion. Hint numbers < 10 have one digit, numbers between 10 and 100 have two digits.
+
+Write a class called YourNameU3E2R. The class will do the following: 
+Make sure you have two variables as instance variables. 
+Use a default constructor to initialize the instance variables. 
+Write 2 methods that allow the user to input the employee’s wage and number of hours worked. 
+If the number of hours from part c is less than or equal to 40, call a method to calculate the regular pay, else call another method that will calculate the regular and overtime pay. Be sure to accept fractional pay. Overtime is paid at 150% of regular pay for anytime worked over 40 hours. Call one of these methods from the modHours (or whatever you named this method) method
+Write a driver class YourNameU3E2D to call the methods in YourNameU3E2R
+
+Write a class called YourNameU3E3D. The class will do the following:
+https://codegolf.stackexchange.com/questions/21927/convert-degrees-to-one-of-the-32-points-of-the-compass#:~:text=Each%20direction%20is%2011.25%20%28360%20%2F%2032%29%20degrees,11.25%20degrees%2C%20NNE%20%28north-northeast%29%20is%2022.5%20degrees%2C%20etc.
+Read the above website on the 32 points of a compass. 
+https://youtu.be/Z8CYAhk3C64 Watch this youtube video from the 3:48 mark on wind direction. 
+Write a class that allows degrees to be entered and the display the correct direction on the compass. Example 45 degrees is north east. Then using that, what would the wind direction be? Print both directions to the screen.
+
+
+Write a class called YourNameU3E4R. The class will do the following:
+Write a program that will read a temperature value and the letter C (Celsius) or Fahrenheit. Print to the screen whether water is a liquid, a gas (steam), or a solid (ice). Write a modifier method to take in the information and a second meth to determine the state of the water at a temperature. 
+In another method, calculate the boiling point of water. The boiling point of water drops by about ½  degree centigrade for every 152 meters or  1 degree fahrenheit for every 500 feet of altitude. Allow the user to enter the altitude in meters or feet. Then calculate the boiling point based on the altitude.
+Add error handling such that if a user does not enter a number or provides an invalid unit for altitude print an error message and allow the user to try again. Allow the user to enter a “q” to quit when entering either the temperature or the height. 
+Make sure this class has a default constructor.
+RightYourNameU3E4D to call the resource class.
+
+
+Write a class called YourNameU3E5D. The class will do the following:
+The original tax code of the United States in 1913 was quite simple. The tax was:
+1% on the first $50,000
+2% on the amount over 50,000 up to $75,000
+3% on the amount over $75,000 up to $100,000
+4% on the amount over $100,000 up to $250,000
+5% on the amount over $250,000 up to $500,000 
+6% on the amount over $500,000
+
+
+Write the code that takes in the income and produces the correct tax for that year. Print the text to the screen.
+Write a class called YourNameU3E6D. The class will do the following:
+Write a class that reads in three strings and sorts them lexicographically. Example if Charlie Able Baker were entered your message should then print out Able Baker Charlie.
+
+Write a class called YourNameU3E7D. The class will do the following:
+Number Guesser Game. This game will randomly choose a four-digit number. The player will guess the number. If any of the numbers are correct, the game will notify the player of the correct guess.
+Code to be used/included in this assignment. 
+Math.random(). Change this from a decimal to an integer.
+Integer wrapper class. Change the integer to a string value.
+Take in the 4-digit guess and compare to the generated number using the decision concept.
+Display on the screen the correct numbers and place an “x” in the position of the incorrect number(s).
+
+Write a class called YourNameU3E8R. The class will do the following:
+Do either a-d or f.
+In this resource class write a method to determine if an angle in a triangle is Optus
+write a method to determine if an angle in a triangle is acute
+write a method to determine if an angle in a triangle is a right angle
+write a message to take in three points and determine if a triangle is an acute triangle, right triangle, or obtuse triangle.
+================================================
+Or write a method that takes in 4 points and determines whether those points form a square, a rectangle, a trapezoid, a rhombus, or none of those shapes.
+This resource class should contain a default constructor
+Write YourNameU3E8D to call the resource class. 
+Write a class called YourNameU3E9D. The class will do the following:
+Roman numbers. Write a program that converts a positive integer into a Roman number system. The Roman number system has digits:
+I -> 1, V -> 5, X -> 10, L -> 50, C -> 100, D -> 500, M -> 1000
+Numbers are formed according to the following rules calling
+only numbers up to 3999 are represented
+as in the decimal system the thousands hundreds 10s and ones are expressed separately
+the numbers one through nine are represented as:
+I -> 1		IV -> 4		VII-> 7
+II -> 2		V -> 5		VIII -> 8
+III -> 3		VI -> 6		IX -> 9
+As you can see, an I proceeding the V or X is subtracted from the value, and you can never have more than three I’s in a row you 10s and hundreds are done the same way except that the letters X, L, C and C, D, M are used instead of I. V, X respectively
+
+Your program should take in an input such as 1978 and convert it to Roman numerals MCMLXXVIII
+
