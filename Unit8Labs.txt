@@ -1,0 +1,30 @@
++Unit 8 Array Lists
+1.       Write a class called YourNameU8E1R. The class will do the following:
+a.       Code a method to add 5 strings
+b.       Print list
+c.       Remove the 2nd string
+d.       Print list
+e.       Replace the third string with the word “USS”;
+f.        Print list
+g.       Sort the list alphabetically. 
+h.       Print the list
+i.         Code a driver class to test parts a – h
+ 
+2.       Write a class called YourNameU8E2R . The class will do the following:
+a.    
+  
+Then write YourNameU8E2D to test YourNameU8E2R
+3.       Write a class called YourNameU8E3R. The class will do the following:
+a.      
+YourNameU8E3D to test YourNameU8E3R
+4.       Write a class called YourNameU8E4R. The class will do the following:
+a.       A supermarket wants to reward its best customer of each day, showing the customer's name on a screen in the supermarket. For that purpose, the store keeps an ArrayList<Customer>. In the store class, implement methods:
+public void addSale(string customerName, double amount);
+public String nameOfBestCustomer();
+To record the sale and return the name of the customer with the largest sale. Write a class that prompts the cashier to enter all the prices and names, adds them to a store object, and displays the best customer's name. Use the price of 0 to terminate the loop.
+b.        Then write YourNameU8E4D to test YourNameU8E4R
+5.       Write a class called YourNameU8E5R. The class will do the following:
+a.       Improve the class in exercise 4 so that it displays the top customers, that is, the topN customers with the largest sales, where topN is a value that the user of the program supplies. Implement a method
+Public ArrayList<String> nameOfBestCustomer(int topN)
+If there were fewer than topN customers, include all of them.
+Then write YourNameU8E5D to test YourNameU8E5R
