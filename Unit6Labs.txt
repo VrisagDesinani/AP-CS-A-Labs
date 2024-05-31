@@ -1,0 +1,65 @@
+Unit 6: Arrays
+1.       Write a class called YourNameU6E1R. The class will do the following:
+a.       Write a class that initializes an array with 10 random integers and then prints four lines of output containing:
+        i.      every element at an even index
+        ii.      every even element
+          iii.      all elements in reverse order
+        iv.      only the first and last element
+b.       Write YourNameU6E1D to call YourNameU6E1R
+ 
+2.       Write a class called YourNameU6E2R . The class will do the following:
+a.       Write a method that computes the sum of an array of values except for the smallest one. Print the current sum and smallest value after each iteration. 
+b.       write a method that prints  the sum and smallest value.
+c.       Write a driver class to test parts A&B
+ 
+3.       Continue with #2 The class will do the following:
+a.       add a method that will compute the alternating sum of all elements in the array for example if your program reads the input 1 3 4 6 7 8 12 14 45 67
+then it computes 1 + 3 – 4 + 6 – 7 + 8 – 12 + 14 – 45 + 67
+b.       Add to the driver class to test this new method
+ 
+4.       Write a class called YourNameU6E4R. The class will do the following:
+a.       write a method that reverses the sequence of elements in an array. For example if you call the method with the array 1 4 5 7 9 10 11 12 14 21 23 25 Then the array should be changed to 25 23 21 14 12 11 10 9 7 5 4 1
+b.       Write a driver class to test part A
+ 
+5.       Write a class called YourNameU6E5R. The class will do the following:
+a.       Write a class that does the following:
+  i.      print the array after each one of these steps
+   ii.      using math.random generate 30 random integers and place them into an array
+  iii.      swap the first and last elements in the array
+ iv.      Shift all elements to the right by one and move the last element into the first position.
+  v.      Replace all odd elements with -23
+vi.      Replace each element except for the first and last by the larger of its two neighbors.
+   vii.      Remove the middle element if the array length is odd, or the middle two elements if the array length is even.
+ viii.      Move all even elements to the front, preserving the order of the elements
+   ix.      return the second largest element in the array return true if the array is currently sorted in increasing order
+  x.      return true if the array contains 2 adjacent duplicate elements
+  xi.      return true if the array contains duplicate elements which need not be adjacent
+xii.      sort the array from smallest to largest
+b.       Write a driver class to test part A.
+ 
+6.       Write a class called YourNameU5E6R. The class will do the following:
+a.       Write a class that reads a sequence of input values, stores them in an array, and displays a bar chart of the values using asterisks like this: (10, 14, 6, 9)
+**********
+**************
+******
+*********
+b.       Ensure that all values are positive and if a negative number is entered take its absolute value.
+c.       Figure out the maximum value entered and that should be drawn with 40 asterisks. Each smaller number should be drawn with one less asterisk *
+d.       write a driver class to test parse a through C
+7.       Continuing with #6, The class will do the following:
+a.       make the bars vertical with the tallest bar 20 asterisks high and each smaller number one less asterisk *.
+8.       Write a class called YourNameU6E8D . The class will do the following:
+a.       Write a class that generates a sequence of 20 random dye tosses in an array and then prints out the die values, marking only the longest run, like this:
+1 2 5 5 3 1 2 4 3 (2 2 2 2) 3 6 5 5 6 3 1
+ 
+9.       Write a class called YourNameU6E9D. The class will do the following:
+a.       It is a well researched fact that men in a restroom generally prefer to maximize their distance from already occupied stalls, by occupying the middle of the longest sequence of unoccupied places. For example consider the situation where 10 stalls are empty
+- - - - - - - - - -
+The first visitor will occupy a middle position
+- - - - - x - - - -
+ 
+The next visitor will be in the middle of the empty area at the left
+- - x - - x - - - -
+Write a  class that reads the number of stalls, then prints out diagrams and the format given above when the stalls become filled, one at a time period hint: use an array of boolean values to indicate whether a stall is occupied.
+b.       Write a driver class to test part A
+
