@@ -1,0 +1,69 @@
+Unit 2: Using objects
+ 
+Practice Exercise:
+ 
+1.       Write a class called YourNameU2E1R. The class will do the following:
+a.       Initialize two instance variables (Length, width).
+Write a default constructor
+b.       Write a constructor that takes one argument.
+c.       Write a constructor that takes two arguments.
+d.       Write a method that takes no parameters and computes the area and returns the area to the driver class.
+e.       Write a method with the same name as “d” and take one argument and compute the area (yes this will be a square) and return the area to the driver..
+f.        Write a method with the same name as “d” and take two arguments and compute the area and return the area to the driver.
+g.       Write a class called YourNamePrint. This class will have a method called printArea, take one argument and will print the area from parts d, e, and f.
+h.       Write a class called YourNameU1E1D to call the classes in parts a-f, and g.
+I. call each of the constructors from the driver class. 
+2.       Write a class called YourNameU2E2D. The class will do the following:
+Import the Rectangle class
+Using the rectangle class, declare a rectangle object with a default constructor.
+Use the getWidth and getHeight methods from the rectangle class to get the width and height.
+Then calculate the perimeter. 
+Using the rectangle class, declare a rectangle object with a two argument constructor.
+Repeat steps c and d
+Using YourNamePrint from E1, make a printPerimeter method and print the perimeter of the rectangle for each of the constructors.
+ 
+3.       Write a class called YourNameU2E3R. The class will do the following:
+a.       Using Math.random, generate a nine digit number and display in the following format ###-##-####
+b.       Write yourNameU2E3D to call YourNameU2E3R
+ 
+4.       Write a class called YourNameU2E4D. The class will do the following:
+a.       Download YourNameU2E4D shell code.
+b.       Research the Period class
+c.       Research the LocalDate class
+d.       Use LocalDate to get todays date and set your
+e.       Ask for the person’s birthday
+f.        Use Localdate to set the persons birthday
+g.       User the Period class to find the number of years, months and days from today to their birthday
+h.       Use the shellcode given to enter the months
+i.         Code the calculations to find the number of days, hours. Minutes, and seconds this person has been alive.
+j.         Print the results to the screen.
+ 
+5.   	Write a class called YourNameU2E5D. The class will do the following:
+a.   	Writing class that reads the radius of a sphere and prints its volume and surface area.
+b.   	Obtain the formulas for volume and surface area from a math book, the internet, or your memory.
+c.   	Use the math class for and PI and exponents
+d.   	Watch the video on printf
+e.   	Use printf to format the output to 3 decimal places and use escape characters for line control
+       
+6.   	Write a class called YourNameU2E6R. The class will do the following:
+a.   	In a resource class, enter a string of at least 20 characters and make sure you have the word “light”.
+b.   	Print the string
+c.   	Calculate the length in a method
+d.   	Return the length to the driver class
+e.   	Send the length into the print method so the print method prints the string and the length
+f.        In another method, get a substring starting at the 5th character and going for 7 (inclusive)characters
+g.   	Return the substring to the driver class, then send it into the print method.
+h.   	In a new method, enter 2 strings and using the equals, determine if the result is true of false. Return the true or false and send it to the print method.
+i.         In a new method, enter two strings and compare them. If the strings are equal return equal, if not, return string one is “larger” than string two else, return string 2 is larger than string one.  Send to the print method. Based on the output, -1, 0, 1 explain what is means.
+7.       Write a class called YourNameU2E7D. The class will do the following: (Using the wrapper class)
+a.       Display to the screen the minimum and maximum values of integer
+b.       Make an Integer object and set it to a number;
+c.       Make a double object and set it to a double.
+d.       Make two different strings and put numbers in them. Make one number between 400 and 999.
+e.       Change the strings to integers
+f.        Add the integers and print the sum.
+g.       Square the larger integer and convert it to a string using toString.
+h.       Using substring, print the numbers in positions 1 and 2.
+i.         Make the double into a string
+j.         Print the last two digits of the double so I would make the double something like 987.124578.
+
